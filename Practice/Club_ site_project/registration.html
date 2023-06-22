@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sokponba FC Registration</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Football Club Registration</h2>
+    <form action="registration.html" method="POST">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+          <option value="">Select</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <label for="position">Preferred Position:</label>
+        <select id="position" name="position" required>
+          <option value="">Select</option>
+          <option value="goalkeeping">Goalkeeping</option>
+          <option value="defense">Defense</option>
+          <option value="midfield">Midfield</option>
+          <option value="attack">Attack</option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <label for="experience">Football Experience:</label>
+        <select id="experience" name="experience" required>
+          <option value="">Select</option>
+          <option value="one">1</option>
+          <option value="two">2</option>
+          <option value="three">3</option>
+          <option value="four">4</option>
+          <option value="five">5</option>
+          <option value="six">More than 5</option>
+        </select>
+      </div>
+      
+      <input type="submit" value="Register">
+    </form>
+  </div>
+</body>
+</html>

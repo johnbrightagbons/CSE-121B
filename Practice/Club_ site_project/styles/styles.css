@@ -1,0 +1,369 @@
+/* CSS for registration */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  background-color: #0ae211;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+/* CSS for payment*/
+/* Payment Form Styles */
+/* Payment Form Styles */
+
+.payment-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.payment-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.payment-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.payment-form input[type="text"],
+.payment-form input[type="number"],
+.payment-form input[type="email"],
+.payment-form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.payment-form input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.payment-form .expiry-date {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.payment-form .expiry-date select {
+  width: 48%;
+}
+
+.payment-form .cvv {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.payment-form .cvv input[type="number"] {
+  width: 70px;
+}
+
+.payment-form .submit-btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.payment-form .submit-btn:hover {
+  background-color: #555;
+}
+
+.payment-form .error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.payment-form .success {
+  color: green;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+
+/* CSS for Home page */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+/* Header Styles */
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  max-width: 100px;
+  height: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #fff;
+  color: #333;
+  border-radius: 3px;
+}
+
+/* Hero Section Styles */
+
+.hero {
+  background-image: url('images/stadium.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Team Section Styles */
+
+.team {
+  padding: 40px 0;
+}
+
+.team h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.team ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team li {
+  background-color: #fff;
+  color: #333;
+  border-radius: 3px;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 18px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Matches Section Styles */
+
+.matches {
+  padding: 40px 0;
+}
+
+.matches h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.matches li {
+  background-color: #fff;
+  color: #333;
+  border-radius: 3px;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 18px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Results Section Styles */
+
+.results {
+  padding: 40px 0;
+}
+
+.results h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* About Section Styles */
+
+.about {
+  padding: 40px 0;
+}
+
+.about h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about p {
+  margin-bottom: 20px;
+}
+
+.about h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.about ul li {
+  margin-bottom: 10px;
+}
+
+/* Contact Section Styles */
+
+.contact {
+  padding: 40px 0;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  margin-bottom: 10px;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-links ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.footer-links ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  color: #fff;
+}
+
+.social {
+  margin-top: 20px;
+}
+
+.social a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social img {
+  width: 24px;
+  height: 24px;
+}
