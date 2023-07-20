@@ -96,7 +96,7 @@ document.querySelector("#todoList").addEventListener("click", manageTasks);
   // because we added 'data-function="delete"' to each icon in a task we can 
   // access a dataset property on our target
   // use that in a couple of if statements to decide whether to run removeTask or completeTask
-}
+
 
 // we need to attach listeners to the submit button and the list. Listen for a click, call the 'newTask' function on submit and call the 'manageTasks' 
 // function if either of the icons are clicked in the list of tasks.
